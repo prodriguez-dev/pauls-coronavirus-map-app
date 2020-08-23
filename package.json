@@ -64,7 +64,7 @@
     "develop": "gatsby develop",
     "format": "prettier-eslint --eslint-config-path ./config/eslint.config.js --write $PWD/'**/*.js'",
     "lint": "eslint -c ./config/eslint.config.js . --ext .js",
-    "start": "yarn develop",
+    "start": "serve -s build",
     "serve": "gatsby serve",
     "test": "jest --config ./config/jest.config.js",
     "test:e2e:open": "start-server-and-test develop http://localhost:8000 cy:open",
